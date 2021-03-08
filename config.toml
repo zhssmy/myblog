@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://example.com/"
+baseURL = "https://zhssmy.github.io/"
 title = "海上生明月"
 languageCode = "zh-CN"
 hasCJKLanguage = true
@@ -189,25 +189,25 @@ uglyURLs = false
         name = "文章"
         weight = 2
         pre = "internal"
-        post = "archive"
+        #post = "archive"
     [[menu.main]]
         url = "/categories/"
         name = "分类"
         weight = 3
         pre = "internal"
-        post = "th"
+        #post = "th"
     [[menu.main]]
         url = "/tags/"
         name = "标签"
         weight = 4
         pre = "internal"
-        post = "tags"
+        #post = "tags"
     [[menu.main]]
         url = "/about/"
         name = "关于"
         weight = 5
         pre = "internal"
-        post = "user-circle"
+        #post = "user-circle"
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
@@ -232,7 +232,7 @@ uglyURLs = false
     enableHeader = true
 
     # 是否自动隐藏
-    enableHeaderAutoHide = false
+    enableHeaderAutoHide = true
     # 说明：仅对弹性布局的顶栏有效
 
     # 是否在首页显示
@@ -417,7 +417,7 @@ uglyURLs = false
     # 说明：left（左边）或 right（右边）
 
     # 是否按月份分隔列表
-    groupByMonth = true
+    groupByMonth = false
 
     # 是否开启十二生肖
     chineseZodiac = true
@@ -558,7 +558,7 @@ uglyURLs = false
     # MathJax 公式支持（包括化学方程式）
 
     # 是否开启（全局设置）
-    enableMathJax = false
+    enableMathJax = true
     # 说明：文章的 Front Matter 中的 `mathjax`
     #      的优先级高于此处
 

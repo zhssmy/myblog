@@ -1,7 +1,7 @@
 ---
 title: "Emoji表情库（二）"
 date: 2019-11-22T22:47:32+08:00
-tags: [Hexo, Emoji]  
+tags: [Hexo, Hugo, Emoji]  
 categories: [TECH]
 draft: false
 dropCap: false
