@@ -99,7 +99,6 @@ TweenMax.to("#obj", 0.5, {x:200, width:200});
 
 ## 水滴效果完整代码
 ```html
-
 <!DOCTYPE html>
 <html lang="en">
 

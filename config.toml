@@ -1,7 +1,8 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://zhssmy.github.io/"
+#baseURL = "https://zhssmy.github.io/"
+baseURL = "http://zhssmy.website/"
 title = "海上生明月"
 languageCode = "zh-CN"
 hasCJKLanguage = true
@@ -31,13 +32,13 @@ enableEmoji = true
 footnoteReturnLinkContents = "↩"
 
 # 是否启用 Git 版本信息
-enableGitInfo = false
+enableGitInfo = true
 
 # 是否生成 robots.txt 文件
 enableRobotsTXT = true
 
 # 每一分页的文章数（仅对「文章摘要」首页布局有效）
-paginate = 5
+paginate = 8
 
 # URL 相关
 disablePathToLower = false
@@ -267,7 +268,7 @@ uglyURLs = false
     # 如果否，则会使用你的站点标题作为默认值，并
     # 以文字的形式显示，下方可配置字号和字色。字
     # 体请到底部的字体部分配置。单位：em。
-    siteBrandFontSize = 1
+    siteBrandFontSize = 1.2
     siteBrandFontColor = "var(--color-contrast-high)"
 
 
@@ -283,7 +284,7 @@ uglyURLs = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否按文章分区高亮当前菜单项
-    activeInSection = false
+    activeInSection = true
     # 说明：如果开启，那么当某一文章的分区名是某
     #      一菜单项中的 `url` 时，该文章页面中
     #      的该菜单项也会被高亮
@@ -766,7 +767,7 @@ uglyURLs = false
     displayTOCTitle = true
 
     # 是否显示数字（全局设置）
-    displayTOCNum = true
+    displayTOCNum = false
     # 说明：文章的 Front Matter 中的 `tocNum`
     #      的优先级高于此处
 
@@ -1002,10 +1003,10 @@ uglyURLs = false
     # 文章版权
 
     # 是否开启
-    enablePostCopyright = true
+    enablePostCopyright = false
 
     # 是否显示（全局设置）
-    displayPostCopyright = true
+    displayPostCopyright = false
     # 说明：文章的 Front Matter 中的 `displayCopyright`
     #      的优先级高于此处
 
@@ -1031,10 +1032,10 @@ uglyURLs = false
     # 文章的 Git 版本信息
 
     # 是否开启
-    enablePostGitInfo = false
+    enablePostGitInfo = true
 
     # 是否显示（全局设置）
-    displayPostGitInfo = false
+    displayPostGitInfo = true
     # 说明：文章的 Front Matter 中的 `gitinfo`
     #      的优先级高于此处
 
@@ -1105,7 +1106,7 @@ uglyURLs = false
     #      的优先级高于此处
 
     # 相关文章数
-    relatedPostsNumber = 5
+    relatedPostsNumber = 3
 
     # 相关文章标题右边的图标
     relatedPostsIcon = "plus-circle"

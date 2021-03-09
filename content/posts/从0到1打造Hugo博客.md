@@ -16,13 +16,13 @@ badge: false
 
 ## 具体流程
 
-### 准备Hugo文件
+### 一、准备Hugo文件
 
 下载hugo文件（extended扩展版）并解压放在自定文件夹（例：我存放的目录为`D:\Hugo\bin`）
 
 > [Hugo下载地址](https://github.com/gohugoio/hugo/releases)
 
-### 配置环境变量。
+### 二、配置环境变量。
 
 在`我的电脑->属性->高级系统设置->环境变量->系统变量->Path`中增加一条`D:\Hugo\bin`，即解压后的hugo.exe文件存放的目录。
 
@@ -30,7 +30,7 @@ badge: false
 `D:\Hugo\bin`修改为自己对应文件位置路径
 {{< /notice >}}
 
-### 检查版本
+### 三、检查版本
 
 打开cmd终端执行hugo version命令查看是否安装成功（是否输出Hugo版本信息）
 
@@ -38,7 +38,7 @@ badge: false
 hugo version
 ```
 
-### 生成博客
+### 四、生成博客
 
 打开bash命令窗口，进入`D:\Hugo\Sites`文件夹（生成站点的文件夹，自定义），输入命令
 
@@ -50,7 +50,7 @@ hugo new site myblog
 命令执行完成之后在`D:\Hugo\Sites\myblog`文件夹下自动生成博客需要的文件
 {{< /notice >}}
 
-### 安装主题
+### 五、安装主题
 
 > [hugo主题网站](https://themes.gohugo.io/)
 
@@ -66,7 +66,7 @@ git submodule add --depth 1 https://github.com/reuixiy/hugo-theme-meme.git theme
 `myblog`为上一步自动生成的文件夹
 {{< /notice >}}
 
-### 开始写作
+### 六、开始写作
 
 将 `config.toml` 替换为示例配置。
 
@@ -83,7 +83,7 @@ hugo new "posts/hello-world.md"
 hugo new "about/_index.md"
 ```
 
-### 本地启动
+### 七、本地启动
 
 ```bash
 hugo server -t meme --buildDrafts
@@ -93,12 +93,12 @@ hugo server -t meme --buildDrafts
 hugo server -D
 ```
 
-### 准备GitHub
+### 八、准备GitHub
 
 创建个人GitHub账号与仓库（命名为【GitHub账号名.github.io】）
 
 
-### 部署到GitHub
+### 九、部署到GitHub
 
 ```bash
 hugo --theme=meme --baseUrl="https://zhssmy.github.io/" --buildDrafts
@@ -118,6 +118,6 @@ git remote add origin https://github.com/zhssmy/zhssmy.github.io.git
 git push -u origin master
 ```
 
-### 访问网站
+### 十、访问网站
 
 访问网址：[zhssmy.github.io](https://zhssmy.github.io)
