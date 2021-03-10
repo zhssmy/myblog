@@ -1,5 +1,5 @@
 ---
-title: "在Hugo中使用Shortcodes简码"
+title: "如何在Hugo中使用Shortcodes简码"
 date: 2021-03-07T00:48:16+08:00
 draft: false
 tags: [Shortcodes,Hugo]

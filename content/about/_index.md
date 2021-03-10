@@ -1,7 +1,9 @@
 ---
 title: "About"
-date: 2021-03-04T11:26:38+08:00
-draft: true
+draft: false
+badge: false
+dropCap: true
+description: "我思故我在"
 ---
 
 这是about页面
