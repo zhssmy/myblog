@@ -242,6 +242,7 @@ uglyURLs = false
 
     # 背景
     headerBackground = "linear-gradient(90deg, #f795331a 0, #f370551a 15%, #ef4e7b1a 30%, #a166ab1a 44%, #5073b81a 58%, #1098ad1a 72%, #07b39b1a 86%, #6dba821a 100%)"
+    #headerBackground =  "linear-gradient(90deg, #EAE5C92A 0, #E8E1d92A 30%,  #6CC6CB2A 70%,#4bc7cf2a 100%)"
     # 说明：https://developer.mozilla.org/zh-CN/docs/Web/CSS/background
 
     # 顶栏布局

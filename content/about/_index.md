@@ -2,8 +2,14 @@
 title: "About"
 draft: false
 badge: false
-dropCap: true
+dropCap: false
+toc: false
 description: "我思故我在"
 ---
 
-这是about页面
+{{< colorful center "最美·就在下一秒" >}}
+
+<video poster="https://zccon.oss-cn-beijing.aliyuncs.com/Hugo/images/background/%E5%90%91%E6%97%A5%E8%91%B5.png" controls>
+<source src="https://zccon.oss-cn-beijing.aliyuncs.com/Hugo/videos/guide.mp4"  >
+</video>
+
