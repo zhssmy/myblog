@@ -25,7 +25,7 @@ git add -A
 # style：博客样式修改
 # docs：增加注释文档
 
-msg="modify：文章《LaTeX数学符号公式汇总》目录添加数字"
+msg="publish：发表文章《从前慢》"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
