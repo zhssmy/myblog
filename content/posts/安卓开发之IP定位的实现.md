@@ -298,7 +298,8 @@ public class Device_location_ip extends AppCompatActivity {
 }
 ```
 
-![](https://zccon.oss-cn-beijing.aliyuncs.com/Hugo/images/tech/2020/06/baidu_located.png "效果")
+![](https://zccon.oss-cn-beijing.aliyuncs.com/zhssmy/images/2021/baidu_located.png "效果")
+
 
 [^1]:[百度地图开放平台-普通IP定位](http://lbsyun.baidu.com/index.php?title=webapi/ip-api)
 [^2]:[百度地图开放平台-全球逆地理编码](http://lbsyun.baidu.com/index.php?title=webapi/guide/webservice-geocoding-abroad)
