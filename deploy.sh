@@ -17,15 +17,15 @@ git add -A
 
 # 使用`date`加入时间
 # msg="rebuilding site `date`"
-# update：更新文章《从0到1打造Hugo博客》
-# publish：发表文章《从0到1打造Hugo博客》
+# update：更新文章《大学里 别自己折了腾飞的翅膀》
+# publish：发表文章《大学里 别自己折了腾飞的翅膀》
 # add：增加某项功能
 # delete：删除某项内容
 # modify：修改某项内容
 # style：博客样式修改
 # docs：增加注释文档
 
-msg="update：更新文章《安卓开发之IP定位的实现》效果图"
+msg="modify：about页面优化"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
