@@ -25,7 +25,7 @@ git add -A
 # style：博客样式修改
 # docs：增加注释文档
 
-msg="modify：about页面优化"
+msg="update：更新文章《常用的18个GIT命令》"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
