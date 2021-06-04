@@ -25,7 +25,7 @@ git add -A
 # style：博客样式修改
 # docs：增加注释文档
 
-msg="publish：发表文章《优雅的JavaScript代码小技巧》"
+msg="publish：发表文章《Vue3介绍》"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
