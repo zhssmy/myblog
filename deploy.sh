@@ -17,15 +17,15 @@ git add -A
 
 # 使用`date`加入时间
 # msg="rebuilding site `date`"
-# update：更新文章《大学里 别自己折了腾飞的翅膀》
-# publish：发表文章《大学里 别自己折了腾飞的翅膀》
+# update：更新文章《TypeScript入门介绍》
+# publish：发表文章《TypeScript入门介绍》
 # add：增加某项功能
 # delete：删除某项内容
 # modify：修改某项内容
 # style：博客样式修改
 # docs：增加注释文档
 
-msg="publish：发表文章《Vue3介绍》"
+msg="publish：发表文章《TypeScript入门介绍》"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
